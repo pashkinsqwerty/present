@@ -42,7 +42,8 @@
     
     .button__heart {
         display: inline-block;
-        font-family: var(--main-font);
+        font-family: var(--main-font) !important;
+        opacity: 1 !important;
         animation: heartBreak 1.2s infinite cubic-bezier(.07,.59,.05,.9);
     }
 
@@ -97,25 +98,25 @@
 
     @font-face {
         font-family:"Terminus";
-        src:url('/Fonts/TerminusTTFWindows-4.49.3.ttf') format('truetype');
+        src:url('./Fonts/TerminusTTFWindows-4.49.3.ttf') format('truetype');
         font-weight: normal;
         font-style: normal;
     }
     @font-face {
         font-family: "Terminus";
-        src: url('/Fonts/TerminusTTFWindows-Bold-4.49.3.ttf') format('truetype');
+        src: url('./Fonts/TerminusTTFWindows-Bold-4.49.3.ttf') format('truetype');
         font-weight: bold;
         font-style: normal;
     }
      @font-face {
         font-family:"Terminus" ;
-        src:url('/Fonts/TerminusTTFWindows-Bold-Italic-4.49.3.ttf') format('truetype');
+        src:url('./Fonts/TerminusTTFWindows-Bold-Italic-4.49.3.ttf') format('truetype');
         font-weight: bold;
         font-style: italic;
     }
      @font-face {
         font-family:"Terminus" ;
-        src:url('/Fonts/TerminusTTFWindows-Italic-4.49.3.ttf') format('truetype');
+        src:url('./Fonts/TerminusTTFWindows-Italic-4.49.3.ttf') format('truetype');
         font-weight: normal;
         font-style: italic;
     }
