@@ -76,6 +76,7 @@
         font-family: var(--main-font);
         font-size: 100px;
         line-height: 1.5;
+        overflow-wrap: break-word;
 
     }
     .typewriter-text::after {
