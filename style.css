@@ -136,3 +136,24 @@
     
    }
    
+
+@media (max-width: 768px) {
+    
+
+    .button__start {
+        font-size: 120px; 
+        margin-left: 0;
+        margin-right: 0;
+        padding: 10px;
+    }
+
+
+    .typewriter-text, .cursor {
+        font-size: 35px; 
+    }
+
+    
+    .terminal-line {
+        max-width: 90%;
+    }
+}
