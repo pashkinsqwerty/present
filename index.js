@@ -23,7 +23,7 @@ heartButton.addEventListener('click',function(){
 
 const textElement = document.querySelector('.typewriter-text');
 const text =["root@pavel-pc:~# ping evelina.heart -c 3",'Инициализация системы...',"root@evelina:~# grep -r 'самая красивая' /ru/spb/","Found 1 match: /ru/spb/evelina.txt","Sending message 'i love u'"
-    ,'ПИП-ПИП-siski','гладим дусю.........погладили',,'ваше устройство взорвется через 3......2........1','','penis =)', 'C 8 марта!♥'] 
+    ,'ПИП-ПИП-siski','гладим дусю','погладили','ваше устройство взорвется через 3......2........1','','penis =)', 'C 8 марта!♥'] 
 
 const sleep = (ms) => new Promise(resolve => setTimeout(resolve, ms));
 async function typeAndDelete(){
